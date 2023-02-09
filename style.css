@@ -7,9 +7,39 @@
     darkgreen #1e3932
 */
 * {
-  color: #27251F;
+  color: #27251f;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
 /* your code */
+
+.city-list {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+.city-list > .city-item {
+  color: lightgreen;
+}
+
+#box1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#box2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+#box3 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
